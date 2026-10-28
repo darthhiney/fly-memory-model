@@ -1,0 +1,38 @@
+Loaded 105 smell channels, 1927 KCs, 58 MBONs
+Compartments and their dopamine: {"a'3(R)": 'punishment', 'a1(R)': 'reward', 'a2(R)': 'punishment', 'a3(R)': 'punishment', "b'1(R)": 'reward', "b'2(R)": 'reward', 'b1(R)': 'reward', 'b2(R)': 'reward', 'g1(R)': 'punishment', 'g2(R)': 'punishment', 'g3(R)': 'reward', 'g4(R)': 'reward', 'g5(R)': 'reward'}
+
+=== punishment dopamine, REAL wiring, averaged over 20 odors ===
+odor             before   after   shift  (+/- spread)
+A (trained)       -0.31   -0.84   -0.53  +/- 0.01
+B (similar)       -0.32   -0.62   -0.30  +/- 0.04
+C (unrelated)     -0.31   -0.40   -0.08  +/- 0.03
+Similar odor moved 58% as far as the trained odor
+Connections changed per memory: 779 of 30490
+Biggest changes: MBON11 (g1(R)), MBON30 (g2(R)), MBON32 (g2(R)), MBON12 (g2(R)), MBON12 (g2(R))
+
+=== punishment dopamine, SHUFFLED wiring, averaged over 20 odors ===
+odor             before   after   shift  (+/- spread)
+A (trained)       -0.28   -0.83   -0.55  +/- 0.02
+B (similar)       -0.27   -0.60   -0.33  +/- 0.03
+C (unrelated)     -0.27   -0.35   -0.08  +/- 0.02
+Similar odor moved 60% as far as the trained odor
+Connections changed per memory: 639 of 30490
+Biggest changes: MBON11 (g1(R)), MBON18 (a2(R)), MBON14 (a3(R)), MBON14 (a3(R)), MBON30 (g2(R))
+
+=== reward dopamine, REAL wiring, averaged over 20 odors ===
+odor             before   after   shift  (+/- spread)
+A (trained)       -0.32    0.51    0.83  +/- 0.00
+B (similar)       -0.32    0.12    0.44  +/- 0.05
+C (unrelated)     -0.31   -0.19    0.12  +/- 0.04
+Similar odor moved 53% as far as the trained odor
+Connections changed per memory: 915 of 30490
+Biggest changes: MBON01 (g5(R)), MBON05 (g4(R)), MBON09 (g3(R)), MBON21 (g4(R)), MBON22 (g4(R))
+
+=== reward dopamine, SHUFFLED wiring, averaged over 20 odors ===
+odor             before   after   shift  (+/- spread)
+A (trained)       -0.27    0.55    0.82  +/- 0.01
+B (similar)       -0.27    0.15    0.41  +/- 0.06
+C (unrelated)     -0.27   -0.18    0.08  +/- 0.02
+Similar odor moved 51% as far as the trained odor
+Connections changed per memory: 800 of 30490
+Biggest changes: MBON01 (g5(R)), MBON05 (g4(R)), MBON06 (b1(R)), MBON09 (g3(R)), MBON03 (b'2(R))

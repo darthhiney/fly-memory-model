@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Hemibrain data downloaded from neuPrint (re-create with fetch_hemibrain.py / fetch_downstream.py)
+neurons.csv
+pn_kc.csv
+kc_mbon.csv
+mbon_l1.csv
+l1_l2.csv
+down_neurons.csv
+
+# Never commit credentials
+.env
+*token*
